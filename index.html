@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+		<link href="./src/theconnman.css" type="text/css" rel="stylesheet" />
+		<link href="./src/github-miniprofile.css" type="text/css" rel="stylesheet" />
+		<link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+        <title>GitHub Mini-Profile</title>
+    </head>
+    <body>
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="./src/jquery.github-miniprofile.js" charset="utf-8"></script>
+		<div id='content'>
+			<h1>GitHub Mini-Profile</h1>
+			<h2>A jQuery Plugin GitHub mini-profile card.</h2>
+			<p>Inspired by <a href="https://github.com/pazguille/github-card">GitHub-Card</a> by <a href="https://github.com/pazguille">Guille Paz</a>.
+			<div id="card" style="margin: 0 auto;"></div>
+			<table style="margin-top: 40px;">
+				<tr>
+					<td>
+						Username:
+					</td>
+					<td>
+						<input type="text" id="user" value="TheConnMan" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Display Company:
+					</td>
+					<td>
+						<input type="checkbox" id="company" checked="true" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Display Blog:
+					</td>
+					<td>
+						<input type="checkbox" id="blog" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Fields:
+					</td>
+					<td>
+						<select multiple="true" id="fields">
+							<option value="Repos">Repos</option>
+							<option value="Gists">Gists</option>
+							<option value="Followers">Followers</option>
+							<option value="Following">Following</option>
+							<option value="Joined">Joined</option>
+							<option value="Last Active">Last Active</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Fields Per Line:
+					</td>
+					<td>
+						<input type="number" id="perLine" value="3" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Width:
+					</td>
+					<td>
+						<input type="number" id="width" value="400" />
+					</td>
+				</tr>
+			</table>
+			<button onclick="refresh()">Submit</button>
+        </div>
+		<div id="footer">
+			Created by Brian Conn. Contact me at <a href="mailto:brian@theconnman.com">brian@theconnman.com</a>.
+		</div>
+		<script>
+			$(function() {
+				$('#card').githubProfile();
+			});
+			
+			function refresh() {
+				var opts = {company: $('#company').is(':checked'),
+						blog: $('#blog').is(':checked')};
+				if ($('#user').val()) {
+					opts.user = $('#user').val();
+				}
+				if ($('#fields').val()) {
+					opts.fields = $('#fields').val();
+				}
+				if ($('#perLine').val()) {
+					opts.perLine = $('#perLine').val();
+				}
+				if ($('#width').val()) {
+					opts.width = $('#width').val();
+				}
+				$('#card').githubProfile(opts);
+			}
+		</script>
+    </body>
+</html>

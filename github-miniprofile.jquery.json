@@ -1,0 +1,37 @@
+{
+  "name": "github-miniprofile",
+  "title": "GitHub Mini-Profile",
+  "description": "A mini profile card for your GitHub account.",
+  "keywords": [
+    "jquery",
+    "card",
+    "plugins",
+    "github",
+    "profile"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Brian Conn",
+    "url": "https://github.com/theconnman"
+  },
+  "maintainers": [
+    {
+      "name": "Brian Conn",
+      "url": "https://github.com/theconnman"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": "https://github.com/TheConnMan/GitHub-MiniProfile/issues",
+  "homepage": "https://github.com/theconnman/github-miniprofile",
+  "docs": "https://github.com/theconnman/github-miniprofile",
+  "demo": "https://theconnman.github.io/github-miniprofile",
+  "download": "https://github.com/TheConnMan/GitHub-MiniProfile/archive/1.0.0.zip",
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}

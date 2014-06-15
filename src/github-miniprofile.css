@@ -1,0 +1,69 @@
+.ghProfile {
+	border-radius: 10px;
+	font-family: 'Helvetica Neue', arial, freesans, clean, sans-serif;
+	border: 1px solid #444;
+	font-size: 15px
+}
+
+.ghProfile h1, .ghProfile h2, .ghProfile h3 {
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 2em;
+	font-family: 'Helvetica Neue', arial, freesans, clean, sans-serif;
+	color: #555;
+}
+
+.ghProfile h2 {
+	font-size: 1.5em;
+}
+
+.ghProfile h3 {
+	font-size: 1.17em;
+}
+
+.ghProfile img {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #747474;
+	border-radius: 150px;
+	margin: 10px;
+	margin-right: 20px;
+	padding: 0;
+}
+
+.ghProfile-table {
+	width: 100%;
+	text-align: center;
+}
+
+.ghProfile-table > tbody > tr > td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.ghProfile-table > tbody > tr:first-child > td {
+	padding-top: 15px;
+}
+
+.ghProfile-table > tbody > tr:last-child > td {
+	padding-bottom: 15px;
+}
+
+.ghProfile-top {
+	border-radius: 10px 10px 0 0;
+	background-color: #EEE;
+	color: #545454;
+}
+
+.ghProfile-bottom {
+	border-top: 3px solid white;
+	background-color: #545454;
+	border-radius: 0 0 10px 10px;
+	color: white;
+}
+
+.ghProfile-metric {
+	font-size: 20px;;
+}
