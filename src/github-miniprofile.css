@@ -84,7 +84,11 @@
 }
 
 /* Blue */
-.ghProfile-blue h1, .ghProfile-blue h2, .ghProfile-blue h3 {
+.ghProfile-blue h1 {
+	color: #266294;
+}
+
+.ghProfile-blue h2, .ghProfile-blue h3 {
 	color: steelblue;
 }
 
@@ -100,5 +104,45 @@
 .ghProfile-blue .ghProfile-bottom {
 	border-color: white;
 	background-color: steelblue;
+	color: white;
+}
+
+/* Black */
+.ghProfile-black h1, .ghProfile-black h2, .ghProfile-black h3 {
+	color: black;
+}
+
+.ghProfile-black img {
+	 border-color: black;
+}
+
+.ghProfile-black .ghProfile-top {
+	background-color: white;
+	color: black;
+}
+
+.ghProfile-black .ghProfile-bottom {
+	border-color: white;
+	background-color: black;
+	color: white;
+}
+
+/* Green */
+.ghProfile-green h1, .ghProfile-green h2, .ghProfile-green h3 {
+	color: #009900;
+}
+
+.ghProfile-green img {
+	 border-color: #009900;
+}
+
+.ghProfile-green .ghProfile-top {
+	background-color: white;
+	color: steelblue;
+}
+
+.ghProfile-green .ghProfile-bottom {
+	border-color: white;
+	background-color: #4DB84d;
 	color: white;
 }

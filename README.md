@@ -48,6 +48,15 @@ Boolean for if the user's company is displayed. If the user has no company this 
 Boolean for if the user's blog or website is displayed as a clickable link. If the user has no blog or website this is ignored.
 
 	blog: true
+### Color
+Color chooses what color pallet to use. Current options are:
+
+- Grey
+- Blue
+
+More are coming in the future.
+
+	color: grey
 
 ## Example
 A more complex example to get a feel for the syntax.
@@ -58,6 +67,7 @@ $('#myId').githubProfile({
 	perLine: 2,
 	width: 400,
 	company: false,
-	blog: true
+	blog: true,
+	color: 'blue'
 });
 ```
