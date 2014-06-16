@@ -39,7 +39,7 @@
 			html += opts.fields.map(function(d, i) {
 				var val = data[$.githubProfile.fieldMap[d]];
 				if (typeof val == 'string' &&new Date(val).getTime()) {
-					val = new Date(val).getFullYear() + '-' + new Date(val).getMonth() + '-' + new Date(val).getDay()
+					val = new Date(val).getFullYear() + '-' + (new Date(val).getMonth() + 1) + '-' + new Date(val).getDate()
 				} else if (d[d.length - 1] == 's' && val == 1) {
 					d = d.substring(0, d.length - 1);
 				}
