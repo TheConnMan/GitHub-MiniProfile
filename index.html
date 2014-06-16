@@ -37,7 +37,7 @@
 						Display Company:
 					</td>
 					<td>
-						<input type="checkbox" id="company" checked="true" />
+						<input type="checkbox" id="company" checked />
 					</td>
 				</tr>
 				<tr>
@@ -53,13 +53,24 @@
 						Fields:
 					</td>
 					<td>
-						<select multiple="true" id="fields">
+						<select multiple id="fields">
 							<option value="Repos">Repos</option>
 							<option value="Gists">Gists</option>
 							<option value="Followers">Followers</option>
 							<option value="Following">Following</option>
 							<option value="Joined">Joined</option>
 							<option value="Last Active">Last Active</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Color:
+					</td>
+					<td>
+						<select id="color">
+							<option value="grey">Grey</option>
+							<option value="blue">Blue</option>
 						</select>
 					</td>
 				</tr>
@@ -92,7 +103,8 @@
 			
 			function refresh() {
 				var opts = {company: $('#company').is(':checked'),
-						blog: $('#blog').is(':checked')};
+						blog: $('#blog').is(':checked'),
+						color: $('#color').val()};
 				if ($('#user').val()) {
 					opts.user = $('#user').val();
 				}

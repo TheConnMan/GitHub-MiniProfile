@@ -7,6 +7,7 @@
 			fields:		['Repos', 'Gists', 'Followers'],
 			perLine:	3,
 			width:		400,
+			color:		'grey',
 			company:	true,
 			blog:		true
 		},
@@ -25,7 +26,7 @@
 		},
 		
 		constructHtml: function(opts, data) {
-			var html = '<div class="ghProfile" style="width: ' + opts.width + 'px;">';
+			var html = '<div class="ghProfile ghProfile-' + opts.color + '" style="width: ' + opts.width + 'px;">';
 			html += '<div class="ghProfile-top">';
 			html += '<table><tr>';
 			html += '<td><a href="' + data.html_url + '"><img src="' + data.avatar_url + '" /></a></td><td>';

@@ -12,7 +12,6 @@
 	margin-bottom: 5px;
 	font-size: 2em;
 	font-family: 'Helvetica Neue', arial, freesans, clean, sans-serif;
-	color: #555;
 }
 
 .ghProfile h2 {
@@ -26,7 +25,7 @@
 .ghProfile img {
 	width: 150px;
 	height: 150px;
-	border: 2px solid #747474;
+	border: 2px solid;
 	border-radius: 150px;
 	margin: 10px;
 	margin-right: 20px;
@@ -53,17 +52,53 @@
 
 .ghProfile-top {
 	border-radius: 10px 10px 0 0;
-	background-color: #EEE;
-	color: #545454;
 }
 
 .ghProfile-bottom {
-	border-top: 3px solid white;
-	background-color: #545454;
+	border-top: 3px solid;
 	border-radius: 0 0 10px 10px;
-	color: white;
 }
 
 .ghProfile-metric {
 	font-size: 20px;;
+}
+
+/* Grey */
+.ghProfile-grey h1, .ghProfile-grey h2, .ghProfile-grey h3 {
+	color: #555;
+}
+
+.ghProfile-grey img {
+	 border-color: #747474;
+}
+
+.ghProfile-grey .ghProfile-top {
+	background-color: #EEE;
+	color: #545454;
+}
+
+.ghProfile-grey .ghProfile-bottom {
+	border-color: white;
+	background-color: #545454;
+	color: white;
+}
+
+/* Blue */
+.ghProfile-blue h1, .ghProfile-blue h2, .ghProfile-blue h3 {
+	color: steelblue;
+}
+
+.ghProfile-blue img {
+	 border-color: steelblue;
+}
+
+.ghProfile-blue .ghProfile-top {
+	background-color: white;
+	color: steelblue;
+}
+
+.ghProfile-blue .ghProfile-bottom {
+	border-color: white;
+	background-color: steelblue;
+	color: white;
 }
