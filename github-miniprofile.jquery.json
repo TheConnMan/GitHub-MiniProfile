@@ -29,8 +29,8 @@
   "bugs": "https://github.com/TheConnMan/GitHub-MiniProfile/issues",
   "homepage": "https://github.com/theconnman/GitHub-MiniProfile",
   "docs": "https://github.com/theconnman/GitHub-MiniProfile",
-  "demo": "https://theconnman.github.io/GitHub-MiniProfile",
-  "download": "https://github.com/TheConnMan/GitHub-MiniProfile/archive/1.1.1.zip",
+  "demo": "http://theconnman.com/GitHub-MiniProfile",
+  "download": "https://github.com/TheConnMan/GitHub-MiniProfile/archive/1.1.2.zip",
   "dependencies": {
     "jquery": ">=1.4"
   }

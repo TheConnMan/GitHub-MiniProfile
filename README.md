@@ -1,4 +1,4 @@
-[GitHub-MiniProfile](https://theconnman.github.io/GitHub-MiniProfile)
+[GitHub-MiniProfile](http://theconnman.com/GitHub-MiniProfile)
 ==================
 GitHub Mini-Profile is a small jQuery plugin which creates a mini GitHub profile card on a page. The design was inspired by [GitHub-Card](https://github.com/pazguille/github-card) which was created by [Guille Paz](https://github.com/pazguille). I wanted to make the card easier to install and customize, so I thought I'd try my hand at converting it into a jQuery Plugin.
 
