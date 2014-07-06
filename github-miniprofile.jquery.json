@@ -9,7 +9,7 @@
     "github",
     "profile"
   ],
-  "version": "1.1.1",
+  "version": "1.1.3",
   "author": {
     "name": "Brian Conn",
     "url": "https://github.com/theconnman"
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/theconnman/GitHub-MiniProfile",
   "docs": "https://github.com/theconnman/GitHub-MiniProfile",
   "demo": "http://theconnman.com/GitHub-MiniProfile",
-  "download": "https://github.com/TheConnMan/GitHub-MiniProfile/archive/1.1.2.zip",
+  "download": "https://github.com/TheConnMan/GitHub-MiniProfile/archive/1.1.3.zip",
   "dependencies": {
     "jquery": ">=1.4"
   }
